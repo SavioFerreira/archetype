@@ -121,6 +121,9 @@
                         <exclude>${packageInPathFormat}/*Test$*</exclude>
                         <exclude>${packageInPathFormat}/*IT</exclude>
                         <exclude>${packageInPathFormat}/*IT$*</exclude>
+                        <exclude>**/*$Proxy$*WeldClientProxy</exclude>
+                        <exclude>**/*$Proxy$*WeldSubclass</exclude>
+                        <exclude>**/*$MockitoMock$*</exclude>
                     </excludes>
                 </configuration>
             </plugin>
